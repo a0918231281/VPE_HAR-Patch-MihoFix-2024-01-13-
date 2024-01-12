@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPE_Miho_Huntress_Ability_StunTalisman</defName>
+		<label>무의식의 부적</label>
+		<description>상대를 단시간동안 기절시기는 부적을 던집니다.</description>
+		<iconPath>Icon/Abilities/MihoStun</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<cooldownTime>7500</cooldownTime>
+		<targetingParameters>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetSelf>False</canTargetSelf>
+			<canTargetAnimals>True</canTargetAnimals>
+			<canTargetMechs>True</canTargetMechs>
+            <canTargetLocations>True</canTargetLocations>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<range>10.9</range>
+		<castTime>12</castTime>
+		<castSound>PsycastPsychicEffect</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPE_Miho_Huntress</path>
+				<level>1</level>
+				<order>1</order>
+				<psyfocusCost>0.1</psyfocusCost>
+				<entropyGain>100</entropyGain>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>Miho_TalismanStun_Proj</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+	
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPE_Miho_Huntress_Ability_Hawk</defName>
+		<label>사냥매</label>
+		<description>사냥매를 날립니다. 사냥매가 적을 계속 방해하며, 지속적으로 적의 전투능력을 낮춰줍니다.</description>
+		<iconPath>Icon/Abilities/Mihoawk</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<cooldownTime>60</cooldownTime>
+		<targetingParameters>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetSelf>False</canTargetSelf>
+			<canTargetAnimals>True</canTargetAnimals>
+			<canTargetMechs>True</canTargetMechs>
+            <canTargetLocations>True</canTargetLocations>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<range>49.9</range>
+		<castTime>120</castTime>
+		<castSound>PsycastPsychicEffect</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPE_Miho_Huntress</path>
+				<level>1</level>
+				<order>2</order>
+				<entropyGain>100</entropyGain>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>Miho_Hawk_Proj</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+	
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPE_Miho_Huntress_Ability_Fireball_Small</defName>
+		<label>여우잔불</label>
+		<description>사람을 죽이기엔 충분한 파괴력을 지닌 작은 여우불을 소환합니다. 소환이라기 보단 무언가를 모은다는게 맞겠군요.</description>
+		<iconPath>Icon/Abilities/MihoSmolFire</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<cooldownTime>60</cooldownTime>
+		<targetingParameters>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetSelf>False</canTargetSelf>
+			<canTargetAnimals>True</canTargetAnimals>
+			<canTargetMechs>True</canTargetMechs>
+            <canTargetLocations>True</canTargetLocations>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<range>24.9</range>
+		<castTime>60</castTime>
+		<castSound>PsycastPsychicEffect</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPE_Miho_Huntress</path>
+				<level>2</level>
+				<order>1</order>
+				<entropyGain>75</entropyGain>
+				<prerequisites>
+					<li>VPE_Miho_Huntress_Ability_StunTalisman</li>
+					<li>VPE_Miho_Huntress_Ability_Hawk</li>
+				</prerequisites>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>Miho_Fireball_Small_Proj</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPE_Miho_Huntress_Ability_Ensnare</defName>
+		<label>사냥그물</label>
+		<description>메카나이트 그물을 날려서 이동속도를 줄입니다. 이미 이동속도가 낮다면 무력화 시켜버립니다.</description>
+		<iconPath>Icon/Abilities/MihoEnsnare</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<cooldownTime>60</cooldownTime>
+		<targetingParameters>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetSelf>False</canTargetSelf>
+			<canTargetAnimals>True</canTargetAnimals>
+			<canTargetMechs>True</canTargetMechs>
+            <canTargetLocations>True</canTargetLocations>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<range>19,9</range>
+		<castTime>60</castTime>
+		<castSound>PsycastPsychicEffect</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPE_Miho_Huntress</path>
+				<level>2</level>
+				<order>2</order>
+				<entropyGain>100</entropyGain>
+				<prerequisites>
+					<li>VPE_Miho_Huntress_Ability_StunTalisman</li>
+					<li>VPE_Miho_Huntress_Ability_Hawk</li>
+				</prerequisites>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>Miho_Ensnare_Proj</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+	
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPE_Miho_Huntress_Ability_Fireball</defName>
+		<label>여우불</label>
+		<description>강력한 파괴력을 지닌 여우불을 소환합니다. 소환이라기 보단 무언가를 모은다는게 맞겠군요.</description>
+		<iconPath>Icon/Abilities/MihoFire</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<cooldownTime>60</cooldownTime>
+		<targetingParameters>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetSelf>False</canTargetSelf>
+			<canTargetAnimals>True</canTargetAnimals>
+			<canTargetMechs>True</canTargetMechs>
+            <canTargetLocations>True</canTargetLocations>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<range>31.9</range>
+		<castTime>120</castTime>
+		<castSound>PsycastPsychicEffect</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPE_Miho_Huntress</path>
+				<level>3</level>
+				<order>1</order>
+				<psyfocusCost>0.02</psyfocusCost>
+				<entropyGain>100</entropyGain>
+				<prerequisites>
+					<li>VPE_Miho_Huntress_Ability_Fireball_Small</li>
+					<li>VPE_Miho_Huntress_Ability_Ensnare</li>
+				</prerequisites>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>Miho_Fireball_Proj</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_WordOfAbilityBase">
+		<defName>VPE_Miho_Huntress_Ability_Inspiration</defName>
+		<label>즐거움의 꼬리침</label>
+		<description>행복을 선사해줍니다. 어떻게 선사해주는진 알려들지 마세요.</description>
+		<iconPath>Icon/Abilities/MihoJoy</iconPath>
+		<durationTime>300000</durationTime>
+		<cooldownTime>60</cooldownTime>
+		<castTime>60</castTime>
+		<goodwillImpact>5</goodwillImpact>
+		<showUndrafted>true</showUndrafted>
+		<targetingParameters>
+			<canTargetMechs>False</canTargetMechs>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetAnimals>False</canTargetAnimals>
+			<neverTargetHostileFaction>True</neverTargetHostileFaction>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPE_Miho_Huntress</path>
+				<level>3</level>
+				<order>2</order>
+				<psyfocusCost>0.4</psyfocusCost>
+				<entropyGain>0</entropyGain>
+				<showCastBubble>false</showCastBubble>
+				<psychic>true</psychic>
+				<prerequisites>
+					<li>VPE_Miho_Huntress_Ability_Fireball_Small</li>
+					<li>VPE_Miho_Huntress_Ability_Ensnare</li>
+				</prerequisites>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Joyfuzz</hediff>
+				<durationMultiplier>PsychicSensitivity</durationMultiplier>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_SocialInteraction">
+				<interactionDef>WordOfJoy</interactionDef>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+	
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPE_Miho_Huntress_Ability_Thunder</defName>
+		<label>번개투창</label>
+		<description>강력한 전하의 메카나이트 창을 튕길 수 있는 방패는 이세상에 없다는게 중론입니다.</description>
+		<iconPath>Icon/Abilities/MihoThunder</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<cooldownTime>2500</cooldownTime>
+		<targetingParameters>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetSelf>False</canTargetSelf>
+			<canTargetAnimals>True</canTargetAnimals>
+			<canTargetMechs>True</canTargetMechs>
+            <canTargetLocations>True</canTargetLocations>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<range>15.9</range>
+		<castTime>60</castTime>
+		<castSound>PsycastPsychicEffect</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPE_Miho_Huntress</path>
+				<level>4</level>
+				<order>1</order>
+				<psyfocusCost>0.05</psyfocusCost>
+				<entropyGain>120</entropyGain>
+				<prerequisites>
+					<li>VPE_Miho_Huntress_Ability_Fireball</li>
+					<li>VPE_Miho_Huntress_Ability_Inspiration</li>
+				</prerequisites>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>Miho_Thunder_Proj</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+	
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPE_Miho_Huntress_Ability_Fireball_Adept</defName>
+		<label>여우불 화살</label>
+		<description>관통력이 뛰어난 여우불 화살을 장거리까지 날립니다.</description>
+		<iconPath>Icon/Abilities/MihoFireArrows</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<cooldownTime>60</cooldownTime>
+		<targetingParameters>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetSelf>False</canTargetSelf>
+			<canTargetAnimals>True</canTargetAnimals>
+			<canTargetMechs>True</canTargetMechs>
+            <canTargetLocations>True</canTargetLocations>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<range>49.9</range>
+		<castTime>180</castTime>
+		<castSound>PsycastPsychicEffect</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPE_Miho_Huntress</path>
+				<level>4</level>
+				<order>2</order>
+				<psyfocusCost>0.03</psyfocusCost>
+				<entropyGain>150</entropyGain>
+				<prerequisites>
+					<li>VPE_Miho_Huntress_Ability_Fireball</li>
+				</prerequisites>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>Miho_Fireball_Adept_Proj</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+	
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPE_Miho_Huntress_Ability_FanofKnives</defName>
+		<label>팬 오브 나이프</label>
+		<description>주변의 메카나이트 분자들을 단분자에 가까운 칼날로 포진시켜 상대에게 죽음을 선사합니다.</description>
+		<iconPath>Icon/Abilities/FanOfKnives</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<cooldownTime>15000</cooldownTime>
+		<targetingParameters>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetSelf>False</canTargetSelf>
+			<canTargetAnimals>True</canTargetAnimals>
+			<canTargetMechs>True</canTargetMechs>
+            <canTargetLocations>True</canTargetLocations>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<range>21.9</range>
+		<castTime>12</castTime>
+		<castSound>PsycastPsychicEffect</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPE_Miho_Huntress</path>
+				<level>5</level>
+				<order>1</order>
+				<psyfocusCost>0.25</psyfocusCost>
+				<entropyGain>250</entropyGain>
+				<prerequisites>
+					<li>VPE_Miho_Huntress_Ability_Thunder</li>
+					<li>VPE_Miho_Huntress_Ability_Fireball_Adept</li>
+				</prerequisites>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>Miho_Fireball_Adept_Proj</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+</Defs>

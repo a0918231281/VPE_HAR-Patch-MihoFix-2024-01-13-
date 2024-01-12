@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Huntress -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Huntress_Start_Hediff"]/stages/li[label = "d"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Huntress_Start_Hediff"]/stages/li[label = "e"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Huntress_I_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Huntress_I_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Huntress_II_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+        <Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Huntress_II_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+        <Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Huntress_III_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+        <Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Huntress_III_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Huntress_V_Hediff"]/comps/li[@Class="HediffCompProperties_GiveAbility"]</xpath>
+	</Operation>
+	
+
+	<!-- Shamaness -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Shamaness_Start_Hediff"]/stages/li[label = "e"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Shamaness_I_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Shamaness_II_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Shamaness_II_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Shamaness_II_Hediff"]/stages/li[label = "d"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Shamaness_III_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Shamaness_V_Hediff"]/comps/li[@Class="HediffCompProperties_GiveAbility"]</xpath>
+	</Operation>
+
+	
+	<!-- Summoner -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Summoner_Start_Hediff"]/stages/li[label = "d"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Summoner_Start_Hediff"]/stages/li[label = "e"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Summoner_I_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Summoner_II_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Summoner_II_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Summoner_III_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Summoner_V_Hediff"]/comps/li[@Class="HediffCompProperties_GiveAbility"]</xpath>
+	</Operation>
+	
+
+	<!-- Temptress -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Temptress_Start_Hediff"]/stages/li[label = "d"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Temptress_Start_Hediff"]/stages/li[label = "e"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Temptress_I_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Temptress_II_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Temptress_III_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Temptress_III_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Temptress_V_Hediff"]/comps/li[@Class="HediffCompProperties_GiveAbility"]</xpath>
+	</Operation>
+	
+
+	<!-- Tinker -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Tinker_Start_Hediff"]/stages/li[label = "e"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Tinker_I_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Tinker_I_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Tinker_II_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Tinker_II_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Tinker_III_Hediff"]/stages/li[label = "b"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Tinker_III_Hediff"]/stages/li[label = "c"]/hediffGivers/li[@Class="MonoTail.HediffGiver_RandomMiho"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Tinker_V_Hediff"]/comps/li[@Class="HediffCompProperties_GiveAbility"]</xpath>
+	</Operation>
+	
+	<!-- Backstories -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="Miho_BaseBackstoryChild"]/forcedHediffs/li[text() = "Miho_Skill_I_StunTalisman_Hediff"]</xpath>
+	</Operation>
+	<!-- Huntress -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_HuntFoxFive" or
+											defName="Miho_Child_RuralThree" or
+											defName="Miho_Child_HuntFoxThree" or
+											defName="Miho_Child_RuralTwo" or
+											defName="Miho_Child_HuntFoxTwo" or
+											defName="Miho_Child_Rural" or
+											defName="Miho_Child_HuntFox"]/forcedHediffs/li[text() = "Miho_Skill_I_Hawk_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_HuntFoxFive" or
+											defName="Miho_Child_RuralThree" or
+											defName="Miho_Child_HuntFoxThree" or
+											defName="Miho_Child_RuralTwo" or
+											defName="Miho_Child_HuntFoxTwo"]/forcedHediffs/li[text() = "Miho_Skill_II_FireballSmall_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_HuntFoxFive" or
+											defName="Miho_Child_RuralThree" or
+											defName="Miho_Child_HuntFoxThree" or
+											defName="Miho_Child_RuralTwo" or
+											defName="Miho_Child_HuntFoxTwo"]/forcedHediffs/li[text() = "Miho_Skill_II_Ensnare_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_HuntFoxFive" or
+											defName="Miho_Child_RuralThree" or
+											defName="Miho_Child_HuntFoxThree"]/forcedHediffs/li[text() = "Miho_Skill_III_Inspiration_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_HuntFoxFive" or
+											defName="Miho_Child_RuralThree" or
+											defName="Miho_Child_HuntFoxThree"]/forcedHediffs/li[text() = "Miho_Skill_III_Fireball_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_HuntFoxFive"]/forcedHediffs/li[text() = "Miho_Skill_IV_Thunder_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_HuntFoxFive"]/forcedHediffs/li[text() = "Miho_Skill_IV_FireballAdept_Hediff"]</xpath>
+	</Operation>
+
+	
+	<!-- Shamaness -->	
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_FoxThree" or 
+											defName="Miho_Child_GiftedThree" or 
+											defName="Miho_Child_FoxTwo" or 
+											defName="Miho_Child_GiftedTwo" or 
+											defName="Miho_Child_Fox" or 
+											defName="Miho_Child_Gifted"]/forcedHediffs/li[text() = "Miho_Skill_I_Love_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_FoxThree" or 
+											defName="Miho_Child_GiftedThree" or 
+											defName="Miho_Child_FoxTwo" or 
+											defName="Miho_Child_GiftedTwo"]/forcedHediffs/li[text() = "Miho_Skill_II_FireballSmall_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_FoxThree" or 
+											defName="Miho_Child_GiftedThree"]/forcedHediffs/li[text() = "Miho_Skill_III_Inspiration_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_FoxThree" or 
+											defName="Miho_Child_GiftedThree"]/forcedHediffs/li[text() = "Miho_Skill_III_Fireball_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_FoxThree" or 
+											defName="Miho_Child_GiftedThree"]/forcedHediffs/li[text() = "Miho_Skill_IV_Heal_Hediff"]</xpath>
+	</Operation>
+	
+	<!-- Summoner -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_DesertFive" or 
+												defName="Miho_Child_DesertThree" or 
+												defName="Miho_Child_DesertTwo" or 
+												defName="Miho_Child_Desert"]/forcedHediffs/li[text() = "Miho_Skill_I_Fox_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_DesertFive" or 
+												defName="Miho_Child_DesertThree" or 
+												defName="Miho_Child_DesertTwo"]/forcedHediffs/li[text() = "Miho_Skill_II_Butterfly_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_DesertFive" or 
+												defName="Miho_Child_DesertThree"]/forcedHediffs/li[text() = "Miho_Skill_III_Inspiration_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_DesertFive" or 
+												defName="Miho_Child_DesertThree"]/forcedHediffs/li[text() = "Miho_Skill_IV_Shield_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_DesertFive"]/forcedHediffs/li[text() = "Miho_Skill_IV_Turret_Hediff"]</xpath>
+	</Operation>
+	
+	<!-- Temptress -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_BraveThree" or 
+												defName="Miho_Child_OrphanThree" or 
+												defName="Miho_Child_BraveTwo" or 
+												defName="Miho_Child_OrphanTwo" or 
+												defName="Miho_Child_Brave" or 
+												defName="Miho_Child_Orphan"]/forcedHediffs/li[text() = "Miho_Skill_I_Powerstrike_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_BraveThree" or 
+												defName="Miho_Child_OrphanThree" or 
+												defName="Miho_Child_BraveTwo" or 
+												defName="Miho_Child_OrphanTwo"]/forcedHediffs/li[text() = "Miho_Skill_II_Jump_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_BraveThree" or 
+												defName="Miho_Child_OrphanThree"]/forcedHediffs/li[text() = "Miho_Skill_III_Defence_Hediff"]</xpath>
+	</Operation>
+	
+	<!-- Tinker -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_TinkerFox" or 
+												defName="Miho_Child_TinkerFoxTwo"]/forcedHediffs/li[text() = "Miho_Skill_I_Repair_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_TinkerFoxTwo"]/forcedHediffs/li[text() = "Miho_Skill_II_Accuracy_Hediff"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName="Miho_Child_TinkerFoxTwo"]/forcedHediffs/li[text() = "Miho_Skill_II_Armor_Hediff"]</xpath>
+	</Operation>
+
+
+	<!-- Skill_Hediff -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="Miho_Skill_I_StunTalisman_Hediff" or 
+		
+							   defName="Miho_Skill_I_Hawk_Hediff" or 
+							   defName="Miho_Skill_II_FireballSmall_Hediff" or 
+							   defName="Miho_Skill_II_Ensnare_Hediff" or 
+							   defName="Miho_Skill_III_Inspiration_Hediff" or 
+							   defName="Miho_Skill_III_Fireball_Hediff" or 
+							   defName="Miho_Skill_IV_Thunder_Hediff" or 
+							   defName="Miho_Skill_IV_FireballAdept_Hediff" or 
+							   
+							   defName="Miho_Skill_I_Love_Hediff" or 
+							   defName="Miho_Skill_IV_Heal_Hediff" or 
+							   defName="Miho_Skill_IV_Serenity_Hediff" or 
+							   
+							   defName="Miho_Skill_I_Fox_Hediff" or 
+							   defName="Miho_Skill_II_Butterfly_Hediff" or 
+							   defName="Miho_Skill_IV_Shield_Hediff" or 
+							   defName="Miho_Skill_IV_Turret_Hediff" or 
+							   
+							   defName="Miho_Skill_I_Powerstrike_Hediff" or 
+							   defName="Miho_Skill_II_Jump_Hediff" or 
+							   defName="Miho_Skill_III_Defence_Hediff" or 
+							   
+							   defName="Miho_Skill_I_Repair_Hediff" or 
+							   defName="Miho_Skill_II_Armor_Hediff" or 
+							   defName="Miho_Skill_II_Accuracy_Hediff" or 
+							   defName="Miho_Skill_III_Overclock_Hediff" or 
+							   defName="Miho_Skill_III_HackingSlow_Hediff" or 
+							   defName="Miho_Skill_IV_BulletHell_Hediff" or 
+							   defName="Miho_Skill_IV_SpawnGenerator_Hediff"]</xpath>
+	</Operation>
+	
+	<!-- Ability -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AbilityDef[defName="Miho_Ability_StunTalisman" or
+		
+								defName="Miho_Ability_Hawk" or 
+								defName="Miho_Ability_Fireball_Small" or 
+								defName="Miho_Ability_Ensnare" or
+								defName="Miho_Ability_Inspiration" or
+								defName="Miho_Ability_Fireball" or  
+								defName="Miho_Ability_Thunder" or 
+								defName="Miho_Ability_Fireball_Adept" or
+								defName="Miho_Ability_FanofKnives" or 
+								
+								defName="Miho_Ability_Love" or 
+								defName="Miho_Ability_Heal" or 
+								defName="Miho_Ability_Serenity" or  
+								defName="Miho_Ability_Spiritualize" or 
+								
+								defName="Miho_Ability_Spawn_Fox" or 
+								defName="Miho_Ability_Spawn_Butterfly" or 
+								defName="Miho_Ability_Shield" or 
+								defName="Miho_Ability_Spawn_Turret" or 
+								defName="Miho_Ability_Spawn_Thrumbo" or
+								
+								defName="Miho_Ability_Powerstrike" or 
+								defName="Miho_Ability_Jump" or 
+								defName="Miho_Ability_Defence" or 
+								defName="Miho_Ability_BerserkPulse" or  
+								
+								defName="Miho_Ability_Repair" or
+								defName="Miho_Ability_Armor" or 
+								defName="Miho_Ability_Accuracy" or 
+								defName="Miho_Ability_Overclock" or 
+								defName="Miho_Ability_HackingSlow" or 
+								defName="Miho_Ability_BulletHell" or 
+								defName="Miho_Ability_SpawnGenerator" or 
+								defName="Miho_Ability_HackingKill"]</xpath>
+	</Operation>
+</Patch>

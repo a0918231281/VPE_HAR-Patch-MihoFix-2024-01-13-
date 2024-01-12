@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <VanillaPsycastsExpanded.PsycasterPathDef Class="VPEPsycasterPathPlus.PsycasterPathDef">
+      <defName>VPE_Miho_Huntress</defName>
+      <label>미호 사냥꾼</label>
+      <description>미호 사냥꾼의 길은 미호 사냥꾼만이 습득할 수 있는 특별한 길입니다.</description>
+      <background>UI/Backgrounds/MihoHuntressPath</background>
+      <altBackground>UI/AlternativeBackgrounds/PathBG_MihoHuntress</altBackground>
+      <tab>Aliens</tab>
+      <tooltip>오직 미호 사냥꾼만이 습득할 수 있는 특별한 길입니다.</tooltip>
+      <lockedReason>미호 사냥꾼 전용</lockedReason>
+      <requiredRace>
+        <li>Alien_Miho</li>
+      </requiredRace>
+      <requiredHediffAny>
+        <li>Miho_Huntress_Start_Hediff</li>
+        <li>Miho_Huntress_I_Hediff</li>
+        <li>Miho_Huntress_II_Hediff</li>
+        <li>Miho_Huntress_III_Hediff</li>
+        <li>Miho_Huntress_IV_Hediff</li>
+        <li>Miho_Huntress_V_Hediff</li>
+      </requiredHediffAny>
+	  <unlockWhenSpawn>true</unlockWhenSpawn>
+    </VanillaPsycastsExpanded.PsycasterPathDef>
+	
+    <VanillaPsycastsExpanded.PsycasterPathDef Class="VPEPsycasterPathPlus.PsycasterPathDef">
+      <defName>VPE_Miho_Shamaness</defName>
+      <label>미호 무녀</label>
+      <description>미호 무녀의 길은 미호 무녀만이 습득할 수 있는 특별한 길입니다.</description>
+      <background>UI/Backgrounds/MihoShamanessPath</background>
+      <altBackground>UI/AlternativeBackgrounds/PathBG_MihoShamaness</altBackground>
+      <tab>Aliens</tab>
+      <tooltip>오직 미호 무녀만이 습득할 수 있는 특별한 길입니다.</tooltip>
+      <lockedReason>미호 무녀 전용</lockedReason>
+      <requiredRace>
+        <li>Alien_Miho</li>
+      </requiredRace>
+      <requiredHediffAny>
+        <li>Miho_Shamaness_Start_Hediff</li>
+        <li>Miho_Shamaness_I_Hediff</li>
+        <li>Miho_Shamaness_II_Hediff</li>
+        <li>Miho_Shamaness_III_Hediff</li>
+        <li>Miho_Shamaness_IV_Hediff</li>
+        <li>Miho_Shamaness_V_Hediff</li>
+      </requiredHediffAny>
+	  <unlockWhenSpawn>true</unlockWhenSpawn>
+    </VanillaPsycastsExpanded.PsycasterPathDef>
+	
+    <VanillaPsycastsExpanded.PsycasterPathDef Class="VPEPsycasterPathPlus.PsycasterPathDef">
+      <defName>VPE_Miho_Temptress</defName>
+      <label>미호 무사</label>
+      <description>미호 무사의 길은 미호 무사만이 습득할 수 있는 특별한 길입니다.</description>
+      <background>UI/Backgrounds/MihoTemptressPath</background>
+      <altBackground>UI/AlternativeBackgrounds/PathBG_MihoTemptress</altBackground>
+      <tab>Aliens</tab>
+      <tooltip>오직 미호 무사만이 습득할 수 있는 특별한 길입니다.</tooltip>
+      <lockedReason>미호 무사 전용</lockedReason>
+      <requiredRace>
+        <li>Alien_Miho</li>
+      </requiredRace>
+      <requiredHediffAny>
+        <li>Miho_Temptress_Start_Hediff</li>
+        <li>Miho_Temptress_I_Hediff</li>
+        <li>Miho_Temptress_II_Hediff</li>
+        <li>Miho_Temptress_III_Hediff</li>
+        <li>Miho_Temptress_IV_Hediff</li>
+        <li>Miho_Temptress_V_Hediff</li>
+      </requiredHediffAny>
+	  <unlockWhenSpawn>true</unlockWhenSpawn>
+    </VanillaPsycastsExpanded.PsycasterPathDef>
+	
+    <VanillaPsycastsExpanded.PsycasterPathDef Class="VPEPsycasterPathPlus.PsycasterPathDef">
+      <defName>VPE_Miho_Summoner</defName>
+      <label>미호 소환사</label>
+      <description>미호 소환사의 길은 미호 소환사만이 습득할 수 있는 특별한 길입니다.</description>
+      <background>UI/Backgrounds/MihoSummonerPath</background>
+      <altBackground>UI/AlternativeBackgrounds/PathBG_MihoSummoner</altBackground>
+      <tab>Aliens</tab>
+      <tooltip>오직 미호 소환사만이 습득할 수 있는 특별한 길입니다.</tooltip>
+      <lockedReason>미호 소환사 전용</lockedReason>
+      <requiredRace>
+        <li>Alien_Miho</li>
+      </requiredRace>
+      <requiredHediffAny>
+        <li>Miho_Summoner_Start_Hediff</li>
+        <li>Miho_Summoner_I_Hediff</li>
+        <li>Miho_Summoner_II_Hediff</li>
+        <li>Miho_Summoner_III_Hediff</li>
+        <li>Miho_Summoner_IV_Hediff</li>
+        <li>Miho_Summoner_V_Hediff</li>
+      </requiredHediffAny>
+	  <unlockWhenSpawn>true</unlockWhenSpawn>
+    </VanillaPsycastsExpanded.PsycasterPathDef>
+	
+    <VanillaPsycastsExpanded.PsycasterPathDef Class="VPEPsycasterPathPlus.PsycasterPathDef">
+      <defName>VPE_Miho_Tinker</defName>
+      <label>미호 땜장이</label>
+      <description>미호 땜장이의 길은 미호 땜장이만이 습득할 수 있는 특별한 길입니다.</description>
+      <background>UI/Backgrounds/MihoTinkerPath</background>
+      <altBackground>UI/AlternativeBackgrounds/PathBG_MihoTinker</altBackground>
+      <tab>Aliens</tab>
+      <tooltip>오직 미호 땜장이만이 습득할 수 있는 특별한 길입니다.</tooltip>
+      <lockedReason>미호 땜장이 전용</lockedReason>
+      <requiredRace>
+        <li>Alien_Miho</li>
+      </requiredRace>
+      <requiredHediffAny>
+        <li>Miho_Tinker_Start_Hediff</li>
+        <li>Miho_Tinker_I_Hediff</li>
+        <li>Miho_Tinker_II_Hediff</li>
+        <li>Miho_Tinker_III_Hediff</li>
+        <li>Miho_Tinker_IV_Hediff</li>
+        <li>Miho_Tinker_V_Hediff</li>
+      </requiredHediffAny>
+	  <unlockWhenSpawn>true</unlockWhenSpawn>
+    </VanillaPsycastsExpanded.PsycasterPathDef>
+</Defs>
